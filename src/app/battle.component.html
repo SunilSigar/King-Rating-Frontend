@@ -1,0 +1,36 @@
+<table class="table table-dark table-striped table-hover">
+  <thead>
+    <tr>
+      <th>Battle Number</th>
+      <th>Name</th>
+      <th>Year</th>
+      <th>Attacker King</th>
+      <th>Defender King</th>
+      <th>Attacker Outcome</th>
+      <th>Battle Type</th>
+      <th>Attacker Size</th>
+      <th>Defender Size</th>
+      <th>Attacker Commander</th>
+      <th>Defender Commander</th>
+      <th>location</th>
+      <th>region</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let battle of allKings">
+      <td>{{battle.battle_number}}</td>
+      <td>{{battle.name}}</td>
+      <td>{{battle.year}}</td>
+      <td>{{battle.attacker_king}}</td>
+      <td>{{battle.defender_king}}</td>
+      <td>{{battle.attacker_outcome}}</td>
+      <td>{{battle.battle_type}}</td>
+      <td>{{battle.attacker_size}}</td>
+      <td>{{battle.defender_size}}</td>
+      <td>{{battle.attacker_commander}}</td>
+      <td>{{battle.defender_commander}}</td>
+      <td>{{battle.location}}</td>
+      <td>{{battle.region}}</td>
+    </tr>
+  </tbody>
+</table>

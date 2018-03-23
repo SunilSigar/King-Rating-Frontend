@@ -1,3 +1,20 @@
+# Project Screenshot
+![webp net-gifmaker 1](https://user-images.githubusercontent.com/11215821/37843549-3f2bd732-2eeb-11e8-833b-2e0538c7bf2c.gif)
+
+# King-Rating-Frontend
+Full Stack application which would calculate the rating and list kings based on their rankings.
+# Database
+Different houses of Westeros are fighting for the crown. Database contains details of all the battles which were fought between them. 
+# Instruction:
+1. Install and run frontend angular project using ng serve or npm start.
+	run on localhost:4200
+2. Run backend project using 
+	- mvn clean install and 
+ 	- mvn spring-boot:run
+3. Create MySQL db and file according to mysql dump(In backend project). 
+# Backend Project
+[a link](https://github.com/SunilSigar/King-Rating-Backend)
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.1.

@@ -13,7 +13,7 @@ Different houses of Westeros are fighting for the crown. Database contains detai
  	- mvn spring-boot:run
 3. Create MySQL db and file according to mysql dump(In backend project). 
 # Backend Project
-[a link](https://github.com/SunilSigar/King-Rating-Backend)
+[Backend Project](https://github.com/SunilSigar/King-Rating-Backend)
 
 # MyApp
 
